@@ -4,10 +4,11 @@ import { useLocaleStorageState } from "./useLocaleStorageState";
 import { useKey } from "./useKey";
 import StarRating from "./StarRating";
 
+import KEY from "./config";
+
 const average = (arr) =>
   arr.reduce((acc, cur, _, arr) => acc + cur / arr.length, 0);
 
-const KEY = "20dc0145";
 console.log(
   `This app was built by Akram Adjab \nLinkedIn link: https://www.linkedin.com/in/akramadjab/`
 );

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const KEY = "20dc0145";
+import KEY from "./config";
 
 export function useMovies(query) {
   const [movies, setMovies] = useState([]);
